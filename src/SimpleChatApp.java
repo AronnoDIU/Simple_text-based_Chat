@@ -11,6 +11,7 @@ public class SimpleChatApp {
     public static void main(String[] args) {
         logger.info("Welcome to the Simple Chat App!"); // Print welcome message
 
+        // Start a new thread to receive messages from the server and print them
         while (true) {
             logger.info("1. Create a Chat Room"); // Print menu options
             logger.info("2. Join a Chat Room");
